@@ -2,3 +2,18 @@
 @import '../assets/css/thejobs.css';
 
 
+.page-header-internal
+{
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(41,170,254,0.8);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;;
+    padding-top: 100px;
+    border: none;
+    
+}
