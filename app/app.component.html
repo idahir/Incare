@@ -16,7 +16,7 @@
 
         <!-- User account -->
         <div class="pull-right user-login">
-            <a class="btn btn-sm btn-primary" [routerLink]="['Login']">Login</a> or <a href="user-register.html">register</a>
+            <a class="btn btn-sm btn-primary" [routerLink]="['Login']">Login</a> or <a [routerLink]="['Login']">register</a>
         </div>
         <!-- END User account -->
 
@@ -24,6 +24,7 @@
         <ul class="nav-menu">
             <li>
                 <a class="active" [routerLink]="['Home']">Home</a>
+          
             </li>
 
             <li>
@@ -127,7 +128,6 @@
 
     <!-- Scripts -->
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/thejobs.js"></script>
     <script src="assets/js/custom.js"></script>
 
 
